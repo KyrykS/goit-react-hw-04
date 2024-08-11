@@ -1,0 +1,25 @@
+.modalContent {
+    position: relative;
+  }
+  
+  .modalImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .imageDetails {
+    color: #fff;
+    padding: 10px;
+  }
+  
