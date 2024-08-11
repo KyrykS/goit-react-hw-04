@@ -4,7 +4,7 @@ import styles from './Loader.module.css';
 
 const Loader = () => (
   <div className={styles.loader}>
-    <Oval color="#00BFFF" height={80} width={80} />
+    <Oval color="#007bff" height={80} width={80} />
   </div>
 );
 
