@@ -1,0 +1,12 @@
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  

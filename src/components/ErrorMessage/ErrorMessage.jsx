@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './ErrorMessage.module.css';
 
-const ErrorMessage = ({ message }) => (
-  <p className={styles.error}>{message}</p>
-);
+const ErrorMessage = ({ message }) => {
+  return <div className={styles.error}>{message}</div>;
+};
 
 export default ErrorMessage;
