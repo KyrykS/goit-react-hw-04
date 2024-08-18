@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './ImageCard.module.css';
 
-const ImageCard = ({ src, alt, largeImageURL }) => {
-  const handleClick = () => {
-    // Логіка відкриття модального вікна з великою версією зображення
-  };
+const ImageCard = ({ image, onImageClick }) => {
+  const { urls, alt_description } = image;
 
   return (
-    <div className={styles.card} onClick={handleClick}>
-      <img src={src} alt={alt} className={styles.image} />
+    <div className={styles.card}>
+      <img
+        src={urls.small}
+        alt={alt_description}
+        className={styles.image}
+        onClick={() => onImageClick(urls.regular)}
+      />
     </div>
   );
 };
